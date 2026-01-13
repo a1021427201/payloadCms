@@ -62,7 +62,8 @@
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "prettier --write",
-      "eslint --fix"
+      "eslint --fix --max-warnings=0",
+      "bash -c tsc --noEmit"
     ]
   },
   "pnpm": {
