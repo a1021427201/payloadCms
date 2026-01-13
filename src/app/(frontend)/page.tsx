@@ -15,8 +15,6 @@ export default async function HomePage() {
 
   const fileURL = `vscode://file/${fileURLToPath(import.meta.url)}`
 
-  const a = 1
-
   return (
     <div className="home">
       <div className="content">
